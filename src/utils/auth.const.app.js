@@ -1,0 +1,1 @@
+export const AUTH_KEY = "data_cookies_auth"

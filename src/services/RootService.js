@@ -1,3 +1,6 @@
+import {collection} from 'firebase/firestore'
+import {db, auth} from "../../firebase.config.app";
+
 export const COLLECTIONS = {
     postCollection: 'posts',
     eventCollection: 'events',
@@ -5,7 +8,3 @@ export const COLLECTIONS = {
     clubCollection: 'clubs'
 }
 
-function initService() {
-    // init all collections if not exits
-
-}
